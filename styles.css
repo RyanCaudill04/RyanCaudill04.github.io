@@ -3,6 +3,18 @@ body
     background-color: aquamarine;
     font-family: 'Times New Roman', Times, sans-serif;
 }
+
+.assignment
+{
+    display: flex;
+    padding: 10px;
+    background-color: aqua;
+}
+.assignment img
+{
+    width: 200px;
+    padding: 10px;
+}
 h1
 {
     color: brown;
