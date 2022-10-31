@@ -1,6 +1,6 @@
 body 
 {
-    background-color: aquamarine;
+    background-color: antiquewhite;
     font-family: 'Times New Roman', Times, sans-serif;
 }
 
@@ -8,15 +8,29 @@ body
 {
     display: flex;
     padding: 10px;
-    background-color: aqua;
+    background-color: azure;
 }
 .assignment img
 {
     width: 200px;
-    padding: 10px;
+    border: 2px solid cornflowerblue;
+    margin: 10px;
+}
+.assignment img:hover
+{
+    border: 2px dashed blue;
 }
 h1
 {
     color: brown;
     text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a:hover 
+{
+    color: blue;
 }
