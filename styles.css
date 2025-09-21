@@ -92,6 +92,18 @@ section h2::after {
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background: linear-gradient(135deg, #73000A, #a30e16);
+    border: 3px solid #fff;
+}
+
+.profile-pic:not([src]), .profile-pic[src=""] {
+    background: linear-gradient(135deg, #73000A, #a30e16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 #about div {
