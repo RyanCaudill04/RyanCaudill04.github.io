@@ -4,65 +4,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Caudill - Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%2373000A%22/></svg>">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h1>Ryan Caudill</h1>
-        <p>Senior Computer Science student at the University of South Carolina with a concentration in AI and a minor in Spanish.</p>
-    </section>
+    <div class="container">
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-        </div>
-    </section>
+        <section id="about">
+            <img src="https://via.placeholder.com/300" alt="Ryan Caudill" class="profile-pic">
+            <div>
+                <h1>Ryan Caudill</h1>
+                <p>Senior Computer Science student at the University of South Carolina with a concentration in AI and a minor in Spanish.</p>
+                <p>Ryancaudill04@gmail.com | (704) 582-1842</p>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C++</li>
-            <li>HTML/CSS/JavaScript</li>
-            <li>Machine Learning</li>
-            <li>Natural Language Processing</li>
-        </ul>
-    </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-filters">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="school">School</button>
+                <button class="filter-btn active" data-filter="personal">Personal</button>
+            </div>
+            <div id="projects-container"></div>
+        </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>University of South Carolina, Columbia, SC</p>
-        <p>Bachelor of Science in Computer Science, AI Concentration</p>
-        <p>Minor in Spanish</p>
-        <p>Expected Graduation: May 2025</p>
-    </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git/GitHub</li>
+                        <li>MATLAB</li>
+                        <li>SQL Server</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker</li>
+                        <li>TensorFlow</li>
+                        <li>Azure</li>
+                        <li>Raspberry Pi</li>
+                        <li>Ubuntu</li>
+                        <li>Hadoop</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>Haskell</li>
+                        <li>Python</li>
+                        <li>Bash</li>
+                        <li>Powershell</li>
+                        <li>Swift</li>
+                        <li>TypeScript</li>
+                        <li>Rust</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>FastAPI</li>
+                        <li>JavaFX</li>
+                        <li>Django</li>
+                        <li>.NET</li>
+                        <li>LangChain</li>
+                        <li>React Native</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
-        <p>GitHub: <a href="https://github.com/RyanCaudill04" target="_blank">github.com/RyanCaudill04</a></p>
-    </section>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>University of South Carolina</h3>
+                        <p>B.S. in Computer Science | AI Concentration | Spanish Minor</p>
+                        <p>Expected Graduation: May 2026</p>
+                        <p>Major GPA: 3.55</p>
+                        <p>Awards: Dean’s List, Capstone Scholar</p>
+                        <p>Relevant Coursework: Computer Networking, Data Structures and Algorithms, Software Engineering, Robotics, Artificial Intelligence, Machine Learning Systems, Operating Systems, Big Data Analytics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <img src="usc_logo.png" alt="University of South Carolina Logo" class="company-logo">
+                            <div class="experience-info">
+                                <h3>Software Engineering Teaching Assistant</h3>
+                                <p>University of South Carolina | Columbia, SC | Jan 2024 - Present</p>
+                            </div>
+                        </div>
+                        <p>As a TA for the software engineering course, I mentor over 30 student development teams working on semester-long projects. I help students design system architectures for diverse applications like language learning platforms and music creation tools. My role involves leading consulting sessions, conducting code reviews in agile sprints, and ensuring teams follow industry best practices while meeting their project milestones.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <img src="scdot_logo.png" alt="SCDOT Logo" class="company-logo">
+                            <div class="experience-info">
+                                <h3>Software Engineer Intern</h3>
+                                <p>South Carolina Department of Transportation | Columbia, SC | May 2025 – Aug 2025</p>
+                            </div>
+                        </div>
+                        <p>During my internship at SCDOT, I focused on automating government processes and modernizing internal systems. My biggest achievement was dramatically streamlining OSHA injury reporting by building an automated system that reduced processing time from a week to just 15 seconds. I also created user-friendly web applications that allow non-technical staff to manage database records more efficiently, and explored AI integration by developing demos that showcase natural language database querying capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <div class="resume-container">
+                <div class="resume-info">
+                    <p>Download my complete resume to learn more about my background, experience, and qualifications.</p>
+                    <div class="resume-actions">
+                        <a href="Resume_2025.docx" download="Ryan_Caudill_Resume_2025.docx" class="download-btn">
+                            <span class="download-icon">⬇</span>
+                            Download Resume (DOCX)
+                        </a>
+                        <p class="file-info">Microsoft Word format • Updated 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Ryancaudill04@gmail.com">Ryancaudill04@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ryan-caudill-b8a0a5313" target="_blank">linkedin.com/in/ryan-caudill-b8a0a5313</a></p>
+            <p>GitHub: <a href="https://github.com/RyanCaudill04" target="_blank">github.com/RyanCaudill04</a></p>
+        </section>
+
+    </div>
 
     <script src="script.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ryan Caudill</p>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top">&#8593;</a>
 </body>
 </html>
