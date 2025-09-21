@@ -297,6 +297,17 @@ section h2::after {
     background: #f8f8f8;
     padding: 8px;
     border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #73000A;
+    text-align: center;
+}
+
+.company-logo[src*=".png"]:not([src=""]) {
+    font-size: 0;
 }
 
 .experience-info h3 {
