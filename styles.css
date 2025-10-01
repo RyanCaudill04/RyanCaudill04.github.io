@@ -155,11 +155,22 @@ section h2::after {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
 }
 
 .project:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.pinned-stars {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #FFD700;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px rgba(255, 215, 0, 0.3);
 }
 
 .project h3 {
