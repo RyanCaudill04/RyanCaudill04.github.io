@@ -3,194 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan Caudill - Portfolio</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%2373000A%22/></svg>">
-    <link rel="stylesheet" href="./styles.css?v=1">
+    <title>Ryan Caudill | Software Engineer (AI Systems & Cloud Reliability)</title>
+    <meta name="description" content="Ryan Caudill is a software engineer focused on practical AI systems, cloud reliability, and developer tooling. Incoming Oracle OCI engineer (July 2026).">
+    <meta name="author" content="Ryan Caudill">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'">
+
+    <link rel="canonical" href="https://ryancaudill04.github.io/">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ryan Caudill | Software Engineer (AI Systems & Cloud Reliability)">
+    <meta property="og:description" content="I build reliable, AI-enabled software systems that reduce operational friction for real teams.">
+    <meta property="og:url" content="https://ryancaudill04.github.io/">
+    <meta property="og:image" content="https://ryancaudill04.github.io/profile_picture.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ryan Caudill | Software Engineer">
+    <meta name="twitter:description" content="Practical AI systems, cloud reliability, and engineering delivery.">
+    <meta name="twitter:image" content="https://ryancaudill04.github.io/profile_picture.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css?v=3">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ryan Caudill",
+      "url": "https://ryancaudill04.github.io/",
+      "email": "mailto:Ryancaudill04@gmail.com",
+      "sameAs": [
+        "https://github.com/RyanCaudill04",
+        "https://www.linkedin.com/in/ryan-caudill-b8a0a5313"
+      ],
+      "jobTitle": "Software Engineer",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of South Carolina"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Oracle"
+      }
+    }
+    </script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container nav-shell">
+            <a class="brand" href="#hero" aria-label="Ryan Caudill homepage">RC</a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#selected-work">Selected Work</a></li>
+                    <li><a href="#experience-highlights">Experience</a></li>
+                    <li><a href="#technical-depth">Technical Depth</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Work Experience</a></li>
-                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <div class="container">
-
-        <section id="about">
-            <img src="./profile_picture.jpg" alt="Ryan Caudill" class="profile-pic">
-            <div>
-                <h1>Ryan Caudill</h1>
-                <p>Senior Computer Science student at the University of South Carolina with a concentration in AI and a minor in Spanish.</p>
-                <p>Ryancaudill04@gmail.com | (704) 582-1842</p>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div id="project-filters">
-                <button class="filter-btn active" data-filter="pinned">Pinned</button>
-                <button class="filter-btn" data-filter="all">All</button>
-            </div>
-            <div id="projects-container"></div>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Git/GitHub</li>
-                        <li>MATLAB</li>
-                        <li>SQL Server</li>
-                        <li>PostgreSQL</li>
-                        <li>Docker</li>
-                        <li>TensorFlow</li>
-                        <li>Azure</li>
-                        <li>Raspberry Pi</li>
-                        <li>Ubuntu</li>
-                        <li>Hadoop</li>
-                    </ul>
+    <main id="main-content" class="container page-shell">
+        <section id="hero" class="panel hero-panel">
+            <div class="hero-grid">
+                <div class="hero-profile">
+                    <img
+                        src="./profile_picture.jpg"
+                        alt="Headshot of Ryan Caudill"
+                        class="profile-pic"
+                        width="296"
+                        height="296"
+                        fetchpriority="high"
+                        decoding="async"
+                    >
                 </div>
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>C++</li>
-                        <li>C#</li>
-                        <li>Haskell</li>
-                        <li>Python</li>
-                        <li>Bash</li>
-                        <li>Powershell</li>
-                        <li>Swift</li>
-                        <li>TypeScript</li>
-                        <li>Rust</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Frameworks</h3>
-                    <ul>
-                        <li>FastAPI</li>
-                        <li>JavaFX</li>
-                        <li>Django</li>
-                        <li>.NET</li>
-                        <li>LangChain</li>
-                        <li>React Native</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-list">
-                <div class="education-item">
-                    <div class="education-header">
-                        <img src="./uofsc_logo.png" alt="University of South Carolina Logo" class="company-logo">
-                        <div class="education-info">
-                            <h3>University of South Carolina</h3>
-                            <p>Columbia, SC | Expected Graduation: May 2026</p>
-                        </div>
-                    </div>
-                    <div class="education-details">
-                        <p><strong>B.S. in Computer Science | Artificial Intelligence Concentration | Spanish Minor</strong></p>
-                        <p><strong>Major GPA:</strong> 3.55</p>
-                        <p><strong>Awards:</strong> Dean's List, Capstone Scholar</p>
-                        <p><strong>Relevant Coursework:</strong> Computer Networking, Data Structures and Algorithms, Software Engineering, Robotics, Artificial Intelligence, Machine Learning Systems, Operating Systems, Big Data Analytics</p>
+                <div>
+                    <p class="eyebrow" id="hero-name">Ryan Caudill</p>
+                    <h1 id="hero-headline">Software Engineer focused on AI systems and cloud reliability</h1>
+                    <p id="hero-value">I build reliable, AI-enabled software systems that reduce operational friction for real teams.</p>
+                    <p class="hero-meta" id="hero-meta">Incoming Oracle OCI Engineer (Nashville, July 2026)</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#selected-work">View Flagship Projects</a>
+                        <a class="btn btn-secondary" href="Resume_2025.docx" download="Ryan_Caudill_Resume_2025.docx">Download Resume</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="experience-list">
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <img src="./imsel.jpg" alt="IMSEL Logo" class="company-logo">
-                        <div class="experience-info">
-                            <h3>Undergraduate Research Assistant</h3>
-                            <p>University of South Carolina | Columbia, SC | Oct 2025 – Present</p>
-                        </div>
-                    </div>
-                    <ul class="experience-details">
-                        <li>Ensured precise synchronization of four camera streams for accurate multi-view data capture, improving reliability and timing consistency across devices.</li>
-                        <li>Developed a Qt-based GUI to display live feeds from four cameras and provide interactive controls for starting/stopping cameras and IMU data processing</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <img src="./uofsc_logo.png" alt="University of South Carolina Logo" class="company-logo">
-                        <div class="experience-info">
-                            <h3>Software Engineering Teaching Assistant</h3>
-                            <p>University of South Carolina | Columbia, SC | Jan 2024 - Present</p>
-                        </div>
-                    </div>
-                    <ul class="experience-details">
-                        <li>Designed and implemented comprehensive system architectures for a Language Learning Application, Degree Planning Software, Music Creation Program, and Digital Escape Room in JavaFX</li>
-                        <li>Provided strategic leadership to 32 development teams, setting a clear direction and fostering collaboration to meet key project milestones effectively and on time.</li>
-                        <li>Facilitated detailed bi-weekly code reviews as part of 2-week sprint cycles, ensuring high-quality code, adherence to best practices, and consistent progress toward project objectives.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <img src="./scdot_logo.webp" alt="SCDOT Logo" class="company-logo">
-                        <div class="experience-info">
-                            <h3>Software Engineer Intern</h3>
-                            <p>South Carolina Department of Transportation | Columbia, SC | May 2025 – Aug 2025</p>
-                        </div>
-                    </div>
-                    <ul class="experience-details">
-                        <li>Automated OSHA injury report submissions by transforming SQL Server data into JSON and integrating with the OSHA ITA API, cutting report time from 7 days to 15 seconds</li>
-                        <li>Developed a Blazor web app with spreadsheet-style SQL Server editing, improving data accuracy and enabling faster updates by non-technical staff.</li>
-                        <li>Built a LangChain demo in Python showcasing LLM Agents for natural language SQL query generation.</li>
-                        <li>Maintained and modernized legacy web applications, improving usability for internal teams.</li>
-                    </ul>
-                </div>
+        <section id="selected-work" class="panel reveal-on-scroll">
+            <div class="section-headline">
+                <h2>Selected Work</h2>
+                <p>Three projects that best represent my engineering judgment, delivery habits, and impact.</p>
             </div>
-        </section>
 
-        <section id="resume">
-            <h2>Resume</h2>
-            <div class="resume-container">
-                <div class="resume-info">
-                    <p>Download my complete resume to learn more about my background, experience, and qualifications.</p>
-                    <div class="resume-actions">
-                        <a href="Resume_2025.docx" download="Ryan_Caudill_Resume_2025.docx" class="download-btn">
-                            <span class="download-icon">⬇</span>
-                            Download Resume (DOCX)
-                        </a>
-                        <p class="file-info">Microsoft Word format • Updated 2025</p>
-                    </div>
-                </div>
+            <div class="project-controls" role="group" aria-label="Project filters">
+                <button class="filter-btn active" type="button" data-filter="featured" aria-pressed="true">Featured</button>
+                <button class="filter-btn" type="button" data-filter="all" aria-pressed="false">All Curated</button>
             </div>
+
+            <div id="projects-container" class="project-grid" aria-live="polite">
+                <article class="project-card project-fallback">
+                    <h3>Project list loading</h3>
+                    <p>If this message persists, refresh the page or check back shortly.</p>
+                </article>
+            </div>
+            <noscript>
+                <p class="noscript-note">Project cards require JavaScript to load. Contact me directly for full project details.</p>
+            </noscript>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:Ryancaudill04@gmail.com">Ryancaudill04@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ryan-caudill-b8a0a5313" target="_blank">linkedin.com/in/ryan-caudill-b8a0a5313</a></p>
-            <p>GitHub: <a href="https://github.com/RyanCaudill04" target="_blank">github.com/RyanCaudill04</a></p>
+        <section id="experience-highlights" class="panel reveal-on-scroll">
+            <div class="section-headline">
+                <h2>Experience Highlights</h2>
+                <p>Roles where I shipped production-facing work and handled real constraints.</p>
+            </div>
+            <div id="experience-list" class="highlight-grid"></div>
         </section>
 
-    </div>
+        <section id="technical-depth" class="panel reveal-on-scroll">
+            <div class="section-headline">
+                <h2>Technical Depth</h2>
+                <p>How I approach systems reliability, AI workflows, and product delivery tradeoffs.</p>
+            </div>
+            <div id="technical-focus" class="focus-grid"></div>
+        </section>
 
-    <script src="./script.js"></script>
-    <footer>
+        <section id="about" class="panel reveal-on-scroll">
+            <div class="section-headline">
+                <h2>About</h2>
+            </div>
+            <p id="about-summary">I specialize in practical AI and backend systems where correctness and usability both matter.</p>
+        </section>
+
+        <section id="contact" class="panel reveal-on-scroll">
+            <div class="section-headline">
+                <h2>Contact</h2>
+                <p>If your team is building reliability-critical software, I am open to conversation.</p>
+            </div>
+            <ul class="contact-list">
+                <li>Email: <a href="mailto:Ryancaudill04@gmail.com">Ryancaudill04@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/ryan-caudill-b8a0a5313" target="_blank" rel="noopener noreferrer">linkedin.com/in/ryan-caudill-b8a0a5313</a></li>
+                <li>GitHub: <a href="https://github.com/RyanCaudill04" target="_blank" rel="noopener noreferrer">github.com/RyanCaudill04</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Ryan Caudill</p>
+            <p>&copy; <span id="copyright-year">2026</span> Ryan Caudill</p>
         </div>
     </footer>
-    <a href="#" id="back-to-top">&#8593;</a>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="./script.js"></script>
 </body>
 </html>

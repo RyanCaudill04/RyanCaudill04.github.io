@@ -1,0 +1,14 @@
+name: Static Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run static validation suite
+        run: ./scripts_validate.sh

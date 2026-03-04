@@ -1,0 +1,58 @@
+{
+  "name": "Ryan Caudill",
+  "headline": "Software Engineer focused on AI systems and cloud reliability",
+  "valueProp": "I build reliable, AI-enabled software systems that reduce operational friction for real teams.",
+  "currentRole": "Incoming Oracle OCI Engineer (Nashville, July 2026)",
+  "about": "I specialize in practical AI and backend systems where correctness and usability both matter. My work focuses on turning noisy workflows into dependable software by combining data pipelines, interfaces, and operational constraints.",
+  "contact": {
+    "email": "Ryancaudill04@gmail.com",
+    "location": "Columbia, SC"
+  },
+  "experienceHighlights": [
+    {
+      "title": "Incoming Oracle OCI",
+      "details": "Oracle | Nashville, TN | Starts July 2026",
+      "summary": "Joining Oracle Cloud Infrastructure to build systems where reliability, scale, and performance are non-negotiable requirements.",
+      "logo": "./oracle.png",
+      "logoAlt": "Oracle logo"
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "details": "University of South Carolina | Oct 2025 - Present",
+      "summary": "Built synchronized capture and UI tooling for a four-camera and IMU data collection workflow to reduce timing drift and operator error.",
+      "logo": "./imsel.jpg",
+      "logoAlt": "IMSEL logo"
+    },
+    {
+      "title": "Software Engineering Teaching Assistant",
+      "details": "University of South Carolina | Jan 2024 - Present",
+      "summary": "Coached 32 teams through architecture tradeoffs, sprint execution, and maintainability practices in recurring code reviews.",
+      "logo": "./uofsc_logo.png",
+      "logoAlt": "University of South Carolina logo"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "details": "South Carolina Department of Transportation | May 2025 - Aug 2025",
+      "summary": "Automated OSHA reporting from SQL Server to ITA API and built tooling that reduced manual data-entry bottlenecks for non-technical staff.",
+      "logo": "./scdot_logo.webp",
+      "logoAlt": "South Carolina Department of Transportation logo"
+    }
+  ],
+  "technicalFocus": [
+    {
+      "title": "Reliability-Critical Systems",
+      "summary": "I prioritize deterministic behavior, observability, and failure-mode handling in systems that cannot silently degrade.",
+      "examples": ["IMSEL camera sync pipeline", "Oracle OCI (incoming)", "Automation workflows"]
+    },
+    {
+      "title": "Applied AI Workflows",
+      "summary": "I use ML and LLM tooling when they remove operational friction, not as feature theater.",
+      "examples": ["DermaLite", "GradingAgent", "LangChain SQL prototype"]
+    },
+    {
+      "title": "Product-Oriented Delivery",
+      "summary": "I focus on interfaces and workflows that real teams can adopt quickly and trust in daily use.",
+      "examples": ["Blazor data editor", "JAIRE x Synchro.io", "TA architecture patterns"]
+    }
+  ]
+}

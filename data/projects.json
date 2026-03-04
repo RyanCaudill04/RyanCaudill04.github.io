@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": "scdot-osha-automation",
+      "title": "SCDOT OSHA Reporting Automation",
+      "role": "Software Engineer Intern",
+      "period": "May 2025 - Aug 2025",
+      "problem": "Weekly OSHA reporting required manual extraction and submission across systems, creating long turnaround and human-error risk.",
+      "solution": "Built an automation pipeline from SQL Server data to the ITA API with validation and failure handling for production-style operational use.",
+      "architecture": "Scheduled extraction jobs pulled normalized OSHA records from SQL Server, validated required fields, and submitted payloads through the ITA API with retry-safe request handling.",
+      "tradeoffs": "Prioritized deterministic submission and auditability over UI complexity by shipping backend-first automation before adding operator-facing enhancements.",
+      "impact": [
+        "Reduced reporting turnaround from roughly one week to seconds.",
+        "Eliminated repetitive manual entry for internal staff workflows.",
+        "Improved consistency of recurring compliance submissions."
+      ],
+      "metrics": [
+        "Process time: ~1 week -> seconds",
+        "Workflow type: recurring compliance submissions"
+      ],
+      "stack": ["C#", "SQL Server", "REST API", "Automation"],
+      "links": {},
+      "featured": true
+    },
+    {
+      "id": "imsel-camera-sync",
+      "title": "IMSEL Multi-Camera Sync Pipeline",
+      "role": "Undergraduate Research Assistant",
+      "period": "Oct 2025 - Present",
+      "problem": "Four camera streams and IMU processing needed synchronized capture to avoid timing drift and invalid downstream analysis.",
+      "solution": "Implemented synchronization and control logic with a Qt-based operator interface for stable collection and reduced capture fragility.",
+      "architecture": "Coordinated acquisition across camera inputs and IMU processing through a unified control path, then exposed operational controls and live state in a Qt desktop interface.",
+      "tradeoffs": "Focused on synchronization correctness and operator clarity before extending feature breadth to keep data-collection reliability high.",
+      "impact": [
+        "Synchronized four camera streams into one coherent capture workflow.",
+        "Reduced operator friction with live-feed visibility and simplified controls.",
+        "Improved collection stability for research data workflows."
+      ],
+      "metrics": [
+        "Synchronized inputs: 4 camera streams + IMU pipeline",
+        "Interface scope: unified control surface for capture operations"
+      ],
+      "stack": ["C++", "Qt", "Sensor Systems", "Data Pipeline"],
+      "links": {},
+      "featured": true
+    },
+    {
+      "id": "dermalite",
+      "title": "DermaLite",
+      "role": "ML Systems Contributor",
+      "period": "2025",
+      "problem": "Skin lesion classification workflows often require heavyweight models that are difficult to run in constrained environments.",
+      "solution": "Contributed to a lightweight, quantized deep-learning system with explainable visualizations for mobile-friendly classification workflows.",
+      "architecture": "Used model optimization and explainability outputs in a Python-based ML workflow to support constrained-device inference and interpretation.",
+      "tradeoffs": "Balanced model compactness and inference practicality against absolute benchmark chasing, prioritizing deployability and interpretability.",
+      "impact": [
+        "Delivered a practical ML system oriented toward constrained-device usage.",
+        "Integrated explainability outputs to improve model interpretation.",
+        "Shipped in a team setting with active repository collaboration."
+      ],
+      "metrics": [
+        "Repository footprint: large multi-module codebase",
+        "Collaboration model: organization-level team repository"
+      ],
+      "stack": ["Python", "Deep Learning", "Model Quantization", "Computer Vision"],
+      "links": {
+        "repo": "https://github.com/csce585-mlsystems/DermaLite"
+      },
+      "featured": true
+    },
+    {
+      "id": "grading-agent",
+      "title": "GradingAgent",
+      "role": "Project Builder",
+      "period": "2025",
+      "problem": "Manual design-pattern grading creates inconsistent feedback and slow turnaround in programming courses.",
+      "solution": "Built an agent-driven grading workflow with companion API/frontend components to structure evaluation and feedback generation.",
+      "architecture": "Split responsibilities between a grading orchestration layer, API surface, and UI clients to keep rubric logic isolated from delivery channels.",
+      "tradeoffs": "Accepted smaller initial model scope to establish consistent rubric enforcement and composable service boundaries first.",
+      "impact": [
+        "Established a repeatable grading workflow for pattern-focused assignments.",
+        "Separated concerns across core agent, API service, and UI components.",
+        "Created a base for iterating on quality and rubric enforcement."
+      ],
+      "metrics": [
+        "System shape: core agent + API + frontend components",
+        "Primary domain: design-pattern assignment evaluation"
+      ],
+      "stack": ["Python", "API Design", "Prompt Workflows"],
+      "links": {
+        "repo": "https://github.com/RyanCaudill04/GradingAgent"
+      },
+      "featured": false
+    },
+    {
+      "id": "jaire",
+      "title": "JAIRE x Synchro.io",
+      "role": "Product Engineering Contributor",
+      "period": "2025",
+      "problem": "Athletes and coaches manage nutrition, training, and health data across disconnected tools.",
+      "solution": "Co-developed an integrated mobile-first experience to unify planning, tracking, and coaching workflows.",
+      "architecture": "Structured app flows around shared athlete and coach contexts so nutrition, workout, and health states could be viewed and updated in one product surface.",
+      "tradeoffs": "Optimized for user workflow coherence and feature integration over early breadth to avoid fragmented tool behavior.",
+      "impact": [
+        "Focused product scope around daily coach-athlete workflow friction.",
+        "Translated requirements into a more consolidated user experience.",
+        "Applied iterative team delivery under real client expectations."
+      ],
+      "metrics": [
+        "Primary users: athletes and coaches",
+        "Workflow domains: nutrition, workouts, health tracking"
+      ],
+      "stack": ["Product Design", "Mobile UX", "Team Delivery"],
+      "links": {
+        "repo": "https://github.com/SCCapstone/JAIRE"
+      },
+      "featured": false
+    }
+  ]
+}
